@@ -7,8 +7,8 @@
             Console.WriteLine("--------------------");
             Console.WriteLine("Welcome to the Tempature Converter");
             Console.WriteLine("--------------------");
-            bool QuitProgram = false;
-            while (!QuitProgram)
+            bool quitProgram = false;
+            while (!quitProgram)
             {
                 Console.WriteLine("Please enter a tempature value and scale (C or F) to convert.");
                 Console.WriteLine("Write Q to quit the program.");
@@ -17,7 +17,7 @@
                 string? input = Console.ReadLine();
                 if (input != null && input.ToUpper() == "Q")
                 {
-                    QuitProgram = true;
+                    quitProgram = true;
                     Console.WriteLine("Thank you for using the Tempature Converter!");
                     Console.WriteLine("--------------------");
                     continue;
